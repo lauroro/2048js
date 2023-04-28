@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #faf8ef;
+  color: #776E65;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+#top-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+
+#title {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+
+#score-container {
+  background-color: #776E65;
+  color: rgb(205, 192, 180);
+  height: 25px;
+  padding: 12px 25px 25px 25px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+#score {
+  font-weight: bold;
+  font-size: 25px;
+  color: #faf8ef;
+}
+
+#game {
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  background: #9c938a;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.gen-tile{
+  border-radius: 4px;
+  width: 85px;
+  height: 85px;
+  font-weight: bold;
+  text-align: center;
+  background: #c7bdb3;
+}
+
+.gen-tile span{
+  top: 13px;
+  position: relative;
+}
+
+.tile0 span{
+  display: none;
+}
+
+.tile2 {
+  background: #eee4da;
+  color: #776E65;
+  font-size: 50px;
+}
+
+.tile4 {
+  background: #e6dacf;
+  color: #776E65;
+  font-size: 50px;
+}
+
+.tile8 {
+  background: #f3b27a;
+  color: #dedede;
+  font-size: 50px;
+}
+
+.tile16 {
+  background: #f69664;
+  color: #dedede;
+  font-size: 50px;
+}
+.tile32 {
+  background: #f77c5f;
+  color: #dedede;
+  font-size: 50px;
+}
+
+.tile64 {
+  background: #f75f3b;
+  color: #dedede;
+  font-size: 50px;
+}
+
+.tile128 {
+  background: #edd073;
+  color: #dedede;
+  font-size: 42px;
+}
+.tile128 span{
+  top: 18px;
+}
+
+.tile256 {
+  background: #edcc62;
+  color: #dedede;
+  font-size: 42px;
+}
+.tile256 span{
+  top: 18px;
+}
+
+.tile512 {
+  background: #edc950;
+  color: #dedede;
+  font-size: 42px;
+}
+.tile512 span{
+  top: 18px;
+}
+
+.tile1024 {
+  background: #edc53f;
+  color: #dedede;
+  font-size: 35px;
+}
+.tile1024 span{
+  top: 22px;
+}
+
+.tile2048 {
+  background: #edc22e;
+  color: #dedede;
+  font-size: 35px;
+}
+.tile2048 span{
+  top: 22px;
+}
